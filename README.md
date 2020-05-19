@@ -4,8 +4,8 @@
 
 # Requirements
 
-Raylib
-Neofetch
+- Raylib
+- Neofetch
 
 # Installation
 
@@ -18,4 +18,5 @@ make run
 # Customization
 
 Window size, text padding and font size can be easily customized in the source code.
+
 The text output can be costumized in neofetch.conf .
