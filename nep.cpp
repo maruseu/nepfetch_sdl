@@ -24,8 +24,8 @@ int main () {
 
 	SetTargetFPS(10);
 
-	std::string aaaa=exec("neofetch --config ./neofetch.conf --stdout");
-	aaaa = trimString(aaaa);
+	std::string 🤠=exec("neofetch --config ./neofetch.conf --stdout");
+	🤠 = trimString(🤠);
 	
 	Image nepPic = LoadImage("nep.png");
 	float nepRatio = (float)nepPic.width / nepPic.height;
@@ -42,7 +42,7 @@ int main () {
 	int y;
 	if(ALIGN_BOTTOM){
 
-		Vector2 textSize = MeasureTextEx(font, aaaa.c_str(), FONT_SIZE, 0);
+		Vector2 textSize = MeasureTextEx(font, 🤠.c_str(), FONT_SIZE, 0);
 		y = SCREEN_SIZE - TEXT_Y - textSize.y;
 
 		std::cout << textSize.x << std::endl;
@@ -63,11 +63,11 @@ int main () {
 			ClearBackground(RAYWHITE);
 			DrawTexture(nepTex, 0, 0, WHITE);
 
-			DrawTextEx(font, aaaa.c_str(), (Vector2){pos.x, pos.y + 1.0f}, FONT_SIZE, 0.0, BLACK);
-			DrawTextEx(font, aaaa.c_str(), (Vector2){pos.x, pos.y - 1.0f}, FONT_SIZE, 0.0, BLACK);
-			DrawTextEx(font, aaaa.c_str(), (Vector2){pos.x + 1.0f, pos.y}, FONT_SIZE, 0.0, BLACK);
-			DrawTextEx(font, aaaa.c_str(), (Vector2){pos.x - 1.0f, pos.y}, FONT_SIZE, 0.0, BLACK);
-			DrawTextEx(font, aaaa.c_str(), pos, FONT_SIZE, 0.0, WHITE);
+			DrawTextEx(font, 🤠.c_str(), (Vector2){pos.x, pos.y + 1.0f}, FONT_SIZE, 0.0, BLACK);
+			DrawTextEx(font, 🤠.c_str(), (Vector2){pos.x, pos.y - 1.0f}, FONT_SIZE, 0.0, BLACK);
+			DrawTextEx(font, 🤠.c_str(), (Vector2){pos.x + 1.0f, pos.y}, FONT_SIZE, 0.0, BLACK);
+			DrawTextEx(font, 🤠.c_str(), (Vector2){pos.x - 1.0f, pos.y}, FONT_SIZE, 0.0, BLACK);
+			DrawTextEx(font, 🤠.c_str(), pos, FONT_SIZE, 0.0, WHITE);
 
 		EndDrawing();
 
