@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "raylib.h"
 
+/* COSTUMIZATION */
+
 const int SCREEN_SIZE     = 275;
 const int TEXT_X          = 10;
 const int TEXT_Y          = 10;
@@ -9,6 +11,8 @@ const int TEXT_Y          = 10;
 const bool ALIGN_BOTTOM   = true;
 
 const int FONT_SIZE       = 17;
+
+///////////////////
 
 std::string exec(const char* cmd);
 //int countLines(std::string str);
