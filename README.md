@@ -2,7 +2,7 @@
 
 ![nepfetch](demo.png "nepFetch")
 
-# Requirements
+# Dependencies
 
 - SDL2
 - SDL2_image
@@ -12,7 +12,7 @@
 # Installation
 
 ```
-git clone https://github.com/maruseu/nepfetch-raylib
-cd nepfetch-raylib
+git clone https://github.com/maruseu/nepfetch_sdl
+cd nepfetch_sdl
 make run
 ```
